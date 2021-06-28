@@ -1,35 +1,36 @@
 # Windows-Terminal
 
 ![alt-text](https://github.com/Peter-Heymann/random-stuff/blob/master/Windows-Terminal/powerline-powershell.png "Windows Terminal Git Powerline")
+
 [Setup Powerline in Windows Terminal](https://docs.microsoft.com/en-us/windows/terminal/tutorials/powerline-setup)
 
 [Font, download zip](https://github.com/microsoft/cascadia-code/releases)
 
 Open the Zip go into ttf and select CascadiaCodePL and CascadiaMonoPL and click install
 
-```
+```POWERSHELL
 Install-Module posh-git -Scope CurrentUser      : A
 Install-Module oh-my-posh -Scope CurrentUser    : A
 ```
 Check if there is a Powershell Profil
-```
+```POWERSHELL
 notepad $PROFILE
 ```
 OR Go to C:\Users\YourUser\Documents\WindowsPowerShell and open Microsoft.PowerShell_profile.ps1
 
 Copy this lines into the notepade from above
-```
+```POWERSHELL
 Import-Module posh-git
 Import-Module oh-my-posh
 Set-PoshPrompt -Theme Paradox
 ```
 Open a New Powershell as an Admin
-```
+```POWERSHELL
 Set-ExecutionPolicy Unrestricted : A
 ```
 
 settings.json
-```
+```JSON
 "profiles":
     {
         "defaults":
