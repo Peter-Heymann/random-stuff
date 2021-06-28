@@ -27,6 +27,10 @@ Set-PoshPrompt -Theme Paradox
 Open a New Powershell as an Admin
 ```POWERSHELL
 Set-ExecutionPolicy Unrestricted : A
+OR
+Set-ExecutionPolicy Default : A
+OR
+Set-ExecutionPolicy RemoteSigned : A
 ```
 
 settings.json
