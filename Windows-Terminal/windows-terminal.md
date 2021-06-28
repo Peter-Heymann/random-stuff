@@ -1,7 +1,6 @@
 # Windows-Terminal
 
-![alt-text][logo]
-[logo]: "Windows Terminal Git Powerline"
+![alt-text](https://github.com/Peter-Heymann/random-stuff/blob/master/Windows-Terminal/powerline-powershell.png "Windows Terminal Git Powerline")
 [Setup Powerline in Windows Terminal](https://docs.microsoft.com/en-us/windows/terminal/tutorials/powerline-setup)
 
 [Font, download zip](https://github.com/microsoft/cascadia-code/releases)
