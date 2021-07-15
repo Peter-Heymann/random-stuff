@@ -1,0 +1,15 @@
+{
+  "name": "hash-web-tool",
+  "version": "1.0.0",
+  "dependencies": {
+    "password-gen-v1": "^1.0.2",
+    "js-sha1": "^0.6.0"
+  },
+  "description": "Webtool for hashing password or other chars.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Peter Heymann <peter.heymann.13@gmail.com> (https://peterheymann.tech)",
+  "license": "ISC"
+}
