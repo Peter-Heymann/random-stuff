@@ -13,19 +13,19 @@ Install-Module posh-git -Scope CurrentUser      : A
 Install-Module oh-my-posh -Scope CurrentUser    : A
 ```
 Check if there is a Powershell Profil
-```POWERSHELL
+```powershell
 notepad $PROFILE
 ```
 OR Go to C:\Users\YourUser\Documents\WindowsPowerShell and open Microsoft.PowerShell_profile.ps1
 
 Copy this lines into the notepade from above
-```POWERSHELL
+```powershell
 Import-Module posh-git
 Import-Module oh-my-posh
 Set-PoshPrompt -Theme Paradox
 ```
 Open a New Powershell as an Admin
-```POWERSHELL
+```powershell
 Set-ExecutionPolicy Unrestricted : A
 OR
 Set-ExecutionPolicy Default : A
@@ -34,7 +34,7 @@ Set-ExecutionPolicy RemoteSigned : A
 ```
 
 settings.json
-```JSON
+```json
 "profiles":
     {
         "defaults":
